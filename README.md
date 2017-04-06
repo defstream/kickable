@@ -5,7 +5,6 @@
 #### What is a kickable?
 Currently only the word "it" is kickable. 
 
-
 | NPM   | Builds | Coverage | Vulnerabilities |
 | :------------- | :------------- | :------------- | :------------- |
 | <a href="http://npmjs.com/package/kickable"><img src="https://img.shields.io/npm/v/kickable.svg" alt="npm version"></a>  | <a href="https://travis-ci.org/defstream/kickable"><img src="https://img.shields.io/travis/defstream/kickable.svg" alt="build status"></a> | <a href="https://codecov.io/github/defstream/kickable"><img src="https://img.shields.io/codecov/c/github/defstream/kickable.svg" alt="coverage"></a> | <a href="https://snyk.io/test/github/defstream/kickable"><img src="https://snyk.io/test/github/defstream/kickable/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/defstream/kickable"></a> |
