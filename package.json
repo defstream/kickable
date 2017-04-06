@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "test": "./node_modules/.bin/nyc report --reporter=lcov | ./node_modules/.bin/codecov"
+    "test": "ava -v",
+    "codecov": "./node_modules/.bin/nyc report --reporter=lcov | ./node_modules/.bin/codecov",
+    "coveralls": "./node_modules/.bin/nyc report --reporter=lcov | ./node_modules/.bin/coveralls"
   },
   "author": "",
   "license": "ISC",
