@@ -1,7 +1,7 @@
 {
   "name": "kickable",
   "version": "1.0.0",
-  "description": "Kickable is a service meant to answer the question \"Can I Kick It?\" ",
+  "description": "Kickable is a service meant to answer the question \"Can I Kick It?\"",
   "main": "index.js",
   "scripts": {
     "start": "node index",
