@@ -1,6 +1,6 @@
 ## kickable
 
-<p align="center">
+<p align="center" style="max-width:100%">
   <a href="http://npmjs.com/package/kickable"><img src="https://img.shields.io/npm/v/kickable.svg"
      alt="npm version"></a>
 
@@ -22,11 +22,6 @@
 
   <a href="http://npm-stat.com/charts.html?package=kickable"><img src="https://img.shields.io/npm/dm/kickable.svg" alt="downloads"></a>
 
-</p>
-
-<p align="center">
-  <a href="https://gitter.im/defstream/kickable"><img src="https://img.shields.io/gitter/room/defstream/kickable.svg"
-     alt="Chat"></a>
 </p>
 
 **kickable** is a microservice built to answer the age old question, "Can I Kick It?"
@@ -76,13 +71,13 @@ Returns true if the string `it` is determined to be kickable.
 
 **returns**: {Bool} true if `it` is determined to be kickable, otherwise false.
 
-### vNext
+### What's next?
 - Case Insensitivity
 - Support for configuring kickable items other than `it`.
 - Return true if the item is known to be a kickable noun, ie. ball, wall, door; otherwise false ( sky, feelings, comments )"
 
 ### Discuss
-+[![Join the chat at https://gitter.im/kickable/Lobby](https://badges.gitter.im/kickable/Lobby.svg)](https://gitter.im/kickable/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/kickable/Lobby](https://badges.gitter.im/kickable/Lobby.svg)](https://gitter.im/kickable/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
 
