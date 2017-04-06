@@ -12,7 +12,3 @@ module.exports = {
 function kickable (it) {
   return it == "it" ? true : false;
 }
-
-function kickable2(it) {
-  return it.toUpperCase() == "it" ? true : false;
-}

@@ -1,30 +1,12 @@
 ## kickable
 
-<p align="center" style="max-width:100%">
-  <a href="http://npmjs.com/package/kickable"><img src="https://img.shields.io/npm/v/kickable.svg"
-     alt="npm version"></a>
-
-  <a href="https://gemnasium.com/defstream/kickable"><img src="https://img.shields.io/gemnasium/defstream/kickable.svg"
-       alt="Gemnasium"></a>
-
-  <a href="https://travis-ci.org/defstream/kickable"><img src="https://img.shields.io/travis/defstream/kickable.svg"
-       alt="build status"></a>
-
-  <a href="https://circleci.com/gh/defstream/kickable"><img src="https://img.shields.io/circleci/project/defstream/kickable.svg"
-       alt="coverage"></a>
-
-  <a href="https://codecov.io/github/defstream/kickable"><img src="https://img.shields.io/codecov/c/github/defstream/kickable.svg"
-    alt="coverage"></a>
-
-  <a href='https://coveralls.io/github/defstream/kickable?branch=master'><img   src='https://coveralls.io/repos/github/defstream/kickable/badge.svg?branch=master&' alt='Coverage' /></a>
-
-  <a href="https://snyk.io/test/github/defstream/kickable"><img src="https://snyk.io/test/github/defstream/kickable/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/defstream/kickable"></a>
-
-  <a href="http://npm-stat.com/charts.html?package=kickable"><img src="https://img.shields.io/npm/dm/kickable.svg" alt="downloads"></a>
-
-</p>
-
 **kickable** is a microservice built to answer the age old question, "Can I Kick It?"
+
+| NPM   | Builds |  Coverage | Vulnerabilities |
+| ------------- | ------------- | ------------- | ------------- |
+| <a href="http://npmjs.com/package/kickable"><img src="https://img.shields.io/npm/v/kickable.svg" alt="npm version"></a>  | <a href="https://travis-ci.org/defstream/kickable"><img src="https://img.shields.io/travis/defstream/kickable.svg" alt="build status"></a> | <a href="https://codecov.io/github/defstream/kickable"><img src="https://img.shields.io/codecov/c/github/defstream/kickable.svg" alt="coverage"></a> | <a href="https://snyk.io/test/github/defstream/kickable"><img src="https://snyk.io/test/github/defstream/kickable/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/defstream/kickable"></a> |
+|  <a href="http://npm-stat.com/charts.html?package=kickable"><img src="https://img.shields.io/npm/dm/kickable.svg" alt="downloads"></a> | <a href="https://circleci.com/gh/defstream/kickable"><img src="https://img.shields.io/circleci/project/defstream/kickable.svg" alt="build status"></a>  | <a href='https://coveralls.io/github/defstream/kickable?branch=master'><img src='https://coveralls.io/repos/github/defstream/kickable/badge.svg?branch=master' alt='Coverage Status' /></a>
+|<a href="https://gemnasium.com/defstream/kickable"><img src="https://img.shields.io/gemnasium/defstream/kickable.svg" alt="Gemnasium"></a> | | | |
 
 #### What is a kickable?
 Currently only the word "it" is kickable. 
@@ -41,9 +23,6 @@ Outputs code documentation files to the `./doc/api` folder.
 ```shell
 $ npm run doc
 ```
-
-#### Static Analysis
-Outputs static analysis files to the `./doc/analysis` folder.
 
 ```shell
 $ npm run analyze
@@ -79,6 +58,29 @@ Returns true if the string `it` is determined to be kickable.
 ### Discuss
 [![Join the chat at https://gitter.im/kickable/Lobby](https://badges.gitter.im/kickable/Lobby.svg)](https://gitter.im/kickable/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+
+  
+
+  
+
+  
+
+**Builds**
+
+  
+
+  
+
+**Coverage**
+
+  
+
+  
+
+
+**Vulnerabilities**
+
+  
 
 
 Questions or comments can also be posted on the kickable Github issues page.
