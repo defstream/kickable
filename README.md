@@ -5,6 +5,7 @@
 #### What is a kickable?
 Currently only the word "it" is kickable. 
 
+
 | NPM   | Builds | Coverage | Vulnerabilities |
 | :------------- | :------------- | :------------- | :------------- |
 | <a href="http://npmjs.com/package/kickable"><img src="https://img.shields.io/npm/v/kickable.svg" alt="npm version"></a>  | <a href="https://travis-ci.org/defstream/kickable"><img src="https://img.shields.io/travis/defstream/kickable.svg" alt="build status"></a> | <a href="https://codecov.io/github/defstream/kickable"><img src="https://img.shields.io/codecov/c/github/defstream/kickable.svg" alt="coverage"></a> | <a href="https://snyk.io/test/github/defstream/kickable"><img src="https://snyk.io/test/github/defstream/kickable/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/defstream/kickable"></a> |
@@ -12,7 +13,7 @@ Currently only the word "it" is kickable.
 |<a href="https://gemnasium.com/defstream/kickable"><img src="https://img.shields.io/gemnasium/defstream/kickable.svg" alt="Gemnasium"></a> | | | |
 
 # Installation
-
+**Requires Node.js 5+, iojs is not currently supported**
 ```shell
 $ npm install kickable --save
 ```
