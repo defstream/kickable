@@ -16,9 +16,9 @@
   <a href="https://codecov.io/github/defstream/kickable"><img src="https://img.shields.io/codecov/c/github/defstream/kickable.svg"
     alt="coverage"></a>
 
-  <a href='https://coveralls.io/github/defstream/kickable?branch=master'><img   src='https://coveralls.io/repos/github/defstream/kickable/badge.svg?branch=master' alt='Coverage' /></a>
+  <a href='https://coveralls.io/github/defstream/kickable?branch=master'><img   src='https://coveralls.io/repos/github/defstream/kickable/badge.svg?branch=master&' alt='Coverage' /></a>
 
-  <a href="https://snyk.io/test/npm/kickable"><img src="https://snyk.io/test/npm/kickable/badge.svg" alt="Known Vulnerabilities"></a>
+  <a href="https://snyk.io/test/github/defstream/kickable"><img src="https://snyk.io/test/github/defstream/kickable/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/defstream/kickable"></a>
 
   <a href="http://npm-stat.com/charts.html?package=kickable"><img src="https://img.shields.io/npm/dm/kickable.svg" alt="downloads"></a>
 
