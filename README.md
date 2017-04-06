@@ -16,6 +16,8 @@
   <a href="https://circleci.com/gh/defstream/kickable"><img src="https://img.shields.io/circleci/project/defstream/kickable.svg"
        alt="coverage"></a>
 
+<a href='https://coveralls.io/github/defstream/kickable?branch=master'><img src='https://coveralls.io/repos/github/defstream/kickable/badge.svg?branch=master' alt='Coverage Status' /></a>
+
   <a href="https://snyk.io/test/npm/kickable"><img src="https://snyk.io/test/npm/kickable/badge.svg" alt="Known Vulnerabilities"></a>
 
   <a href="http://npm-stat.com/charts.html?package=kickable"><img src="https://img.shields.io/npm/dm/kickable.svg" alt="downloads"></a>

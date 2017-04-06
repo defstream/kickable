@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node index",
     "test": "ava -v",
-    "codecov": "./node_modules/.bin/nyc report --reporter=lcov | ./node_modules/.bin/codecov",
-    "coveralls": "./node_modules/.bin/nyc report --reporter=lcov | ./node_modules/.bin/coveralls"
+    "codecov": "./node_modules/.bin/nyc report --reporter=lcov | ./node_modules/.bin/codecov -B $(date \"+%Y%m%d%H%M%S\")", 
+    "coveralls": "./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls"
   },
   "author": "",
   "license": "ISC",
