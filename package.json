@@ -1,0 +1,22 @@
+{
+  "name": "kickable",
+  "version": "1.0.0",
+  "description": "Kickable is a service meant to answer the question \"Can I Kick It?\" ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "./node_modules/.bin/nyc report --reporter=lcov | ./node_modules/.bin/codecov"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-route": "^3.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.19.0",
+    "codecov": "^2.1.0",
+    "coveralls": "^2.13.0",
+    "nyc": "^10.2.0"
+  }
+}
