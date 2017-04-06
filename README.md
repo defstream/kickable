@@ -10,13 +10,13 @@
   <a href="https://travis-ci.org/defstream/kickable"><img src="https://img.shields.io/travis/defstream/kickable.svg"
        alt="build status"></a>
 
-  <a href="https://codecov.io/github/defstream/kickable"><img src="https://img.shields.io/codecov/c/github/defstream/kickable.svg"
-        alt="coverage"></a>
-
   <a href="https://circleci.com/gh/defstream/kickable"><img src="https://img.shields.io/circleci/project/defstream/kickable.svg"
        alt="coverage"></a>
 
-<a href='https://coveralls.io/github/defstream/kickable?branch=master'><img src='https://coveralls.io/repos/github/defstream/kickable/badge.svg?branch=master' alt='Coverage Status' /></a>
+  <a href="https://codecov.io/github/defstream/kickable"><img src="https://img.shields.io/codecov/c/github/defstream/kickable.svg"
+    alt="coverage"></a>
+
+  <a href='https://coveralls.io/github/defstream/kickable?branch=master'><img   src='https://coveralls.io/repos/github/defstream/kickable/badge.svg?branch=master' alt='Coverage' /></a>
 
   <a href="https://snyk.io/test/npm/kickable"><img src="https://snyk.io/test/npm/kickable/badge.svg" alt="Known Vulnerabilities"></a>
 
@@ -82,7 +82,9 @@ Returns true if the string `it` is determined to be kickable.
 - Return true if the item is known to be a kickable noun, ie. ball, wall, door; otherwise false ( sky, feelings, comments )"
 
 ### Discuss
-Chat channel:    <a href="https://gitter.im/kickable"><img src="https://img.shields.io/gitter/room/kickable.svg" alt="Chat"></a>
++[![Join the chat at https://gitter.im/kickable/Lobby](https://badges.gitter.im/kickable/Lobby.svg)](https://gitter.im/kickable/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+
 
 Questions or comments can also be posted on the kickable Github issues page.
 
