@@ -9,14 +9,23 @@ Currently only the word "it" is kickable.
 | :------------- | :------------- | :------------- | :------------- |
 | <a href="http://npmjs.com/package/kickable"><img src="https://img.shields.io/npm/v/kickable.svg" alt="npm version"></a>  | <a href="https://travis-ci.org/defstream/kickable"><img src="https://img.shields.io/travis/defstream/kickable.svg" alt="build status"></a> | <a href="https://codecov.io/github/defstream/kickable"><img src="https://img.shields.io/codecov/c/github/defstream/kickable.svg" alt="coverage"></a> | <a href="https://snyk.io/test/github/defstream/kickable"><img src="https://snyk.io/test/github/defstream/kickable/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/defstream/kickable"></a> |
 |  <a href="http://npm-stat.com/charts.html?package=kickable"><img src="https://img.shields.io/npm/dm/kickable.svg" alt="downloads"></a> | <a href="https://circleci.com/gh/defstream/kickable"><img src="https://img.shields.io/circleci/project/defstream/kickable.svg" alt="build status"></a>  | <a href='https://coveralls.io/github/defstream/kickable?branch=master'><img src='https://coveralls.io/repos/github/defstream/kickable/badge.svg?branch=master&2' alt='Coverage Status' /></a>
-|<a href="https://gemnasium.com/defstream/kickable"><img src="https://img.shields.io/gemnasium/defstream/kickable.svg" alt="Gemnasium"></a> | <a href="https://app.wercker.com/project/byKey/ad2cf41dce2ba2da236ef802e4e978d6">
-  <img alt="Wercker status" src="https://app.wercker.com/status/ad2cf41dce2ba2da236ef802e4e978d6/s/master">
-</a> | | |
+|<a href="https://gemnasium.com/defstream/kickable"><img src="https://img.shields.io/gemnasium/defstream/kickable.svg" alt="Gemnasium"></a> |  <a href="https://app.wercker.com/project/byKey/ad2cf41dce2ba2da236ef802e4e978d6"> <img alt="Wercker status" src="https://app.wercker.com/status/ad2cf41dce2ba2da236ef802e4e978d6/s/master"></a>| | |
 
 # Installation
 **Requires Node.js 6+, iojs is not currently supported**
 ```shell
 $ npm install kickable --save
+```
+
+#### Build Documentation
+Outputs code documentation files to the `./doc/api` folder.
+
+```shell
+$ npm run doc
+```
+
+```shell
+$ npm run analyze
 ```
 
 #### Test + Coverage
