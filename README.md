@@ -12,7 +12,7 @@ Currently only the word "it" is kickable.
 |<a href="https://gemnasium.com/defstream/kickable"><img src="https://img.shields.io/gemnasium/defstream/kickable.svg" alt="Gemnasium"></a> | | | |
 
 # Installation
-**Requires Node.js 5+, iojs is not currently supported**
+**Requires Node.js 6+, iojs is not currently supported**
 ```shell
 $ npm install kickable --save
 ```

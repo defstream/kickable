@@ -1,6 +1,4 @@
 test:
   override:
-    - nvm use node && npm run test
+    - nvm use 7 && npm run test
     - nvm use 6 && npm run test
-    - nvm use 6 && npm run test
-    - nvm use 5 && npm run test
