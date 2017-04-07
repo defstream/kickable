@@ -13,19 +13,9 @@ Currently only the word "it" is kickable.
 
 # Installation
 **Requires Node.js 6+, iojs is not currently supported**
+
 ```shell
 $ npm install kickable --save
-```
-
-#### Build Documentation
-Outputs code documentation files to the `./doc/api` folder.
-
-```shell
-$ npm run doc
-```
-
-```shell
-$ npm run analyze
 ```
 
 #### Test + Coverage
@@ -57,31 +47,6 @@ Returns true if the string `it` is determined to be kickable.
 
 ### Discuss
 [![Join the chat at https://gitter.im/kickable/Lobby](https://badges.gitter.im/kickable/Lobby.svg)](https://gitter.im/kickable/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-
-  
-
-  
-
-  
-
-**Builds**
-
-  
-
-  
-
-**Coverage**
-
-  
-
-  
-
-
-**Vulnerabilities**
-
-  
-
 
 Questions or comments can also be posted on the kickable Github issues page.
 
