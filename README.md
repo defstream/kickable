@@ -18,11 +18,16 @@ Currently only the word "it" is kickable.
 $ npm install kickable --save
 ```
 
-#### Test + Coverage
-Outputs code coverage files to the `./doc/coverage` folder.
+#### Test 
 
 ```shell
 $ npm run test
+```
+
+#### Cover 
+
+```shell
+$ npm run cover
 ```
 
 **CURRENT COVERAGE REPORT**
