@@ -1,10 +1,6 @@
 test:
   override:
     - nvm use node && npm run test
-        parallel: true
     - nvm use 6 && npm run test
-        parallel: true
     - nvm use 6 && npm run test
-        parallel: true
     - nvm use 5 && npm run test
-        parallel: true
