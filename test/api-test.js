@@ -27,7 +27,7 @@ test("successful", (t) => {
     t.is(res.body, true)
 });
 
-test.skip("case sensitive", (t) => {
+test("case sensitive", (t) => {
     const res = kick("IT")
     t.is(res.body, true)
 });
