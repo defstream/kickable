@@ -8,13 +8,14 @@
     "test": "ava -v",
     "cover": "nyc npm run test",
     "report": "npm run codecov & npm run coveralls",
-    "codecov": "./node_modules/.bin/nyc report --reporter=lcov | ./node_modules/.bin/codecov -B $(date \"+%Y%m%d%H%M%S\")", 
+    "codecov": "./node_modules/.bin/nyc report --reporter=lcov | ./node_modules/.bin/codecov -B $(date \"+%Y%m%d%H%M%S\")",
     "coveralls": "./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "koa": "^2.2.0",
+    "koa-logger": "^2.0.1",
     "koa-route": "^3.2.0"
   },
   "devDependencies": {
