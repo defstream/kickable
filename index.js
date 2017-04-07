@@ -6,10 +6,16 @@
 
 const Koa = require('koa');
 const route = require('koa-route');
-const api = require('./api')
+const logger = require('koa-logger');
+
+const api = require('./api');
 
 const app = new Koa();
+const port = process.env.PORT || 3000;
 
+app.use(logger())
 app.use(route.get('/kick/:it', api.kick));
 
-app.listen(3000);
+app.listen(port);
+
+console.log(`kickable now running on port ${port}`);
