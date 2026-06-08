@@ -2,25 +2,35 @@
   "name": "kickable",
   "version": "1.0.0",
   "description": "Kickable is a service meant to answer the question \"Can I Kick It?\"",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "scripts": {
-    "start": "node index",
-    "test": "ava -v",
-    "cover": "nyc npm run test",
-    "report": "npm run codecov & npm run coveralls",
-    "codecov": "./node_modules/.bin/nyc report --reporter=lcov | ./node_modules/.bin/codecov -B $(date \"+%Y%m%d%H%M%S\")", 
-    "coveralls": "./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls"
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "ava",
+    "test:coverage": "c8 ava"
   },
   "author": "",
   "license": "ISC",
+  "type": "module",
   "dependencies": {
-    "koa": "^2.2.0",
-    "koa-route": "^3.2.0"
+    "koa": "^3.2.1",
+    "koa-route": "^4.0.1"
   },
   "devDependencies": {
-    "ava": "^0.19.0",
-    "codecov": "^2.1.0",
-    "coveralls": "^2.13.0",
-    "nyc": "^10.2.0"
+    "@types/koa": "^3.0.3",
+    "@types/koa-route": "^3.2.9",
+    "@types/node": "^25.9.2",
+    "ava": "^8.0.1",
+    "c8": "^11.0.0",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  },
+  "ava": {
+    "files": [
+      "dist/test/**/*.js"
+    ]
   }
 }

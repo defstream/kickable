@@ -12,13 +12,19 @@ Currently only the word "it" is kickable.
 |<a href="https://gemnasium.com/defstream/kickable"><img src="https://img.shields.io/gemnasium/defstream/kickable.svg" alt="Gemnasium"></a> |  <a href="https://app.wercker.com/project/byKey/ad2cf41dce2ba2da236ef802e4e978d6"> <img alt="Wercker status" src="https://app.wercker.com/status/ad2cf41dce2ba2da236ef802e4e978d6/s/master"></a>| | |
 
 # Installation
-**Requires Node.js 6+, iojs is not currently supported**
+**Requires Node.js 22+, iojs is not currently supported**
 
 ```shell
 $ npm install kickable --save
 ```
 
-#### Test 
+#### Build
+
+```shell
+$ npm run build
+```
+
+#### Test  
 
 ```shell
 $ npm run test
@@ -27,7 +33,7 @@ $ npm run test
 #### Cover 
 
 ```shell
-$ npm run cover
+$ npm run test:coverage
 ```
 
 **CURRENT COVERAGE REPORT**
