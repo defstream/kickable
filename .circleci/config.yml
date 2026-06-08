@@ -1,0 +1,28 @@
+version: 2.1
+jobs:
+  build-and-test:
+    docker:
+      - image: cimg/node:22.2.0
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package-lock.json" }}
+            - v1-dependencies-
+      - run:
+          name: Install dependencies
+          command: npm install
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package-lock.json" }}
+      - run:
+          name: Build TypeScript code
+          command: npm run build
+      - run:
+          name: Run tests
+          command: npm test
+workflows:
+  build-and-test-workflow:
+    jobs:
+      - build-and-test
