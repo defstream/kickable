@@ -1,13 +1,19 @@
-.PHONY: install build start test coverage clean
+.PHONY: install build start typecheck lint test coverage clean
 
 install:
-	npm install
+	npm ci
 
 build:
 	npm run build
 
 start:
 	npm run start
+
+typecheck:
+	npm run typecheck
+
+lint:
+	npm run lint
 
 test:
 	npm run test
