@@ -5,18 +5,24 @@
 #### What is a kickable?
 Currently only the word "it" is kickable. 
 
-| NPM   | Builds | Coverage | Vulnerabilities |
-| :------------- | :------------- | :------------- | :------------- |
-| <a href="http://npmjs.com/package/kickable"><img src="https://img.shields.io/npm/v/kickable.svg" alt="npm version"></a>  | <a href="https://travis-ci.org/defstream/kickable"><img src="https://img.shields.io/travis/defstream/kickable.svg" alt="build status"></a> | <a href="https://codecov.io/github/defstream/kickable"><img src="https://img.shields.io/codecov/c/github/defstream/kickable.svg" alt="coverage"></a> | <a href="https://snyk.io/test/github/defstream/kickable"><img src="https://snyk.io/test/github/defstream/kickable/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/defstream/kickable"></a> |
-|  <a href="http://npm-stat.com/charts.html?package=kickable"><img src="https://img.shields.io/npm/dm/kickable.svg" alt="downloads"></a> | <a href="https://circleci.com/gh/defstream/kickable"><img src="https://img.shields.io/circleci/project/defstream/kickable.svg" alt="build status"></a>  | <a href='https://coveralls.io/github/defstream/kickable?branch=master'><img src='https://coveralls.io/repos/github/defstream/kickable/badge.svg?branch=master&2' alt='Coverage Status' /></a>
-|<a href="https://gemnasium.com/defstream/kickable"><img src="https://img.shields.io/gemnasium/defstream/kickable.svg" alt="Gemnasium"></a> |  <a href="https://app.wercker.com/project/byKey/ad2cf41dce2ba2da236ef802e4e978d6"> <img alt="Wercker status" src="https://app.wercker.com/status/ad2cf41dce2ba2da236ef802e4e978d6/s/master"></a>| | |
+| NPM | Build | Coverage | Vulnerabilities |
+| :--- | :--- | :--- | :--- |
+| <a href="http://npmjs.com/package/kickable"><img src="https://img.shields.io/npm/v/kickable.svg" alt="npm version"></a> | <a href="https://app.circleci.com/pipelines/github/defstream/kickable"><img src="https://img.shields.io/circleci/build/github/defstream/kickable/master" alt="build status"></a> | <a href="https://codecov.io/github/defstream/kickable"><img src="https://img.shields.io/codecov/c/github/defstream/kickable.svg" alt="coverage"></a> | <a href="https://snyk.io/test/github/defstream/kickable"><img src="https://snyk.io/test/github/defstream/kickable/badge.svg" alt="Known Vulnerabilities"></a> |
+| <a href="http://npm-stat.com/charts.html?package=kickable"><img src="https://img.shields.io/npm/dm/kickable.svg" alt="downloads"></a> | | <a href='https://coveralls.io/github/defstream/kickable?branch=master'><img src='https://coveralls.io/repos/github/defstream/kickable/badge.svg?branch=master' alt='Coverage Status' /></a> | |
 
-# Installation
-**Requires Node.js 22+, iojs is not currently supported**
+# Requirements
+
+**Node.js 22+**
+
+# Usage
 
 ```shell
-$ npm install kickable --save
+$ npm install
+$ npm run build
+$ npm start
 ```
+
+The service listens on port `3000`.
 
 #### Build
 
@@ -24,42 +30,38 @@ $ npm install kickable --save
 $ npm run build
 ```
 
-#### Test  
+#### Test
 
 ```shell
-$ npm run test
+$ npm test
 ```
 
-#### Cover 
+#### Coverage
 
 ```shell
 $ npm run test:coverage
 ```
 
-**CURRENT COVERAGE REPORT**
-
-![codecov.io](https://codecov.io/github/defstream/kickable/branch.svg?branch=master)
-
 # API
 
-### `api.kick(it)`
+### `GET /kick/:it`
 
-Returns true if the string `it` is determined to be kickable. 
+Returns `true` if `:it` is kickable, otherwise `false`.
 
-**parameters:**
-- **it**            {String}    The value to determine as kickable
+**Example:**
 
-**returns**: {Bool} true if `it` is determined to be kickable, otherwise false.
+```shell
+$ curl http://localhost:3000/kick/it
+true
+
+$ curl http://localhost:3000/kick/sky
+false
+```
 
 ### What's next?
-- Case Insensitivity
-- Support for configuring kickable items other than `it`.
-- Return true if the item is known to be a kickable noun, ie. ball, wall, door; otherwise false ( sky, feelings, comments )"
-
-### Discuss
-[![Join the chat at https://gitter.im/kickable/Lobby](https://badges.gitter.im/kickable/Lobby.svg)](https://gitter.im/kickable/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-Questions or comments can also be posted on the kickable Github issues page.
+- Case insensitivity
+- Support for configuring kickable items other than `it`
+- Return true if the item is a known kickable noun (ball, wall, door); otherwise false (sky, feelings, comments)
 
 ### Maintainers
 Hector Gray (Twitter: <a href="https://twitter.com/defstream">@defstream</a>)
