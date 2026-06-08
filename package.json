@@ -10,7 +10,7 @@
     "build": "tsc",
     "start": "node dist/index.js",
     "test": "ava",
-    "test:coverage": "c8 ava"
+    "test:coverage": "c8 --reporter=lcov --reporter=text ava"
   },
   "author": "",
   "license": "ISC",

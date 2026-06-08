@@ -1,4 +1,6 @@
 version: 2.1
+orbs:
+  codecov: codecov/codecov@4
 jobs:
   build-and-test:
     docker:
@@ -20,8 +22,10 @@ jobs:
           name: Build TypeScript code
           command: npm run build
       - run:
-          name: Run tests
-          command: npm test
+          name: Run tests with coverage
+          command: npm run test:coverage
+      - codecov/upload:
+          file: coverage/lcov.info
 workflows:
   build-and-test-workflow:
     jobs:
