@@ -1,6 +1,6 @@
 {
   "name": "kickable",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Kickable is a service meant to answer the question \"Can I Kick It?\"",
   "main": "dist/index.js",
   "repository": {
@@ -46,10 +46,16 @@
     "typescript-eslint": "^8.60.1"
   },
   "ava": {
-    "extensions": ["ts"],
-    "nodeArguments": ["--import=tsx/esm"],
+    "extensions": [
+      "ts"
+    ],
+    "nodeArguments": [
+      "--import=tsx/esm"
+    ],
     "workerThreads": false,
-    "files": ["test/**/*.ts"]
+    "files": [
+      "test/**/*.ts"
+    ]
   },
   "lint-staged": {
     "*.ts": "eslint --fix"
